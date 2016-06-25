@@ -7367,10 +7367,6 @@ button.close {
   color: #fff;
 }
 
-.navbar-right {
-  display: none;
-}
-
 .navbar-toggle {
   background-color: #2B2B2B;
 }
@@ -7428,7 +7424,7 @@ button.close {
   .navbar-default .navbar-brand {
     color: #fff;
     font-size: 25px;
-    padding-left: 25%;
+    padding-left: 22%;
   }
 
   .navbar-default .navbar-brand:focus {
