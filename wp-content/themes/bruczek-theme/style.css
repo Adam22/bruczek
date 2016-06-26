@@ -7346,7 +7346,7 @@ button.close {
   margin-bottom: 1px;
 }
 
-.header-wrapper {
+.header-content-wrapper {
   position: relative;
 }
 
@@ -7361,6 +7361,7 @@ button.close {
 .navbar.navbar-default {
   border-radius: 0;
   margin-bottom: 1px;
+  z-index: 1;
 }
 
 .navbar-default .navbar-brand {
@@ -7368,7 +7369,7 @@ button.close {
 }
 
 .navbar-toggle {
-  background-color: #2B2B2B;
+  background-color: #2b2b2b;
 }
 
 .navbar-default {
@@ -7444,6 +7445,45 @@ button.close {
 
   .navbar-default .navbar-nav > li > a {
     font-size: 20px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-content-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .header-content-wrapper .header-phone-number {
+    float: right;
+    position: absolute;
+    top: 45px;
+    right: 30px;
+    font-size: 20px;
+  }
+
+  #menu_my_bootstrap_menu_settings_main_menu {
+    position: relative;
+  }
+
+  .navbar-brand {
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    font-size: 40px;
+  }
+
+  .navbar-inner {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .logo-wrapper img {
+    height: 120px;
+    width: auto;
+  }
+
+  .navbar-nav {
+    padding-left: 10%;
   }
 }
 a:focus {

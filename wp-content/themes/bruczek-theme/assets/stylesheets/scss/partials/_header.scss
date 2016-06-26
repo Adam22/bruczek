@@ -1,16 +1,16 @@
 
 #main-header {
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: $header-bgcolor;
+  color: $header-text-color;
   .main-navigation{
     .navbar{
       border-radius: 0;
-      margin-bottom: 1px
+      margin-bottom: 1px;
     }
   }
 }
 
-.header-wrapper{
+.header-content-wrapper {
   position: relative;
 }
 
@@ -24,19 +24,20 @@
 
 .navbar.navbar-default{
   border-radius: 0;
-  margin-bottom: 1px
+  margin-bottom: 1px;
+  z-index: 1;
 }
 
 .navbar-default .navbar-brand{
-  color: #fff;
+  color: $header-text-color;
 }
 
 .navbar-toggle{
-  background-color: #2B2B2B;
+  background-color: $header-bgcolor;
 }
 
 .navbar-default {
-  background-color: #4D4D4D;
+  background-color: $navbar-bgcolor;
   -webkit-box-shadow: 0px 4px 7px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.75);
@@ -44,29 +45,29 @@
 }
 
 .navbar-default .navbar-nav > .active > a{
-  background-color: #2b2b2b;
-  color: #fff;
+  background-color: $header-bgcolor;
+  color: $header-text-color;
 }
 
 .navbar-default .navbar-nav > li > a:focus{
-  color: #fff;
+  color: $header-text-color;
   border-color: transparent;
 }
 
 .navbar-default .navbar-nav > li > a{
-  color: #abaaaa;
+  color: $main-menu-item-text-color;
 }
 .navbar-default .navbar-nav > .active > a{
   &:focus {
-    background-color: #2b2b2b;
+    background-color: $header-bgcolor;
   }
   &:hover{
-    background-color: #2b2b2b
+    background-color: $header-bgcolor
   }
 }
 
 .menu_my_bootstrap_menu > li > a{
-  color: #fff;
+  color: $header-text-color;
 }
 
 @media screen and (max-width: $screen-xs) {
@@ -81,17 +82,17 @@
   }
   .navbar-default{
     border-color: transparent;
-    border-color: #e7e7e7;
+    border-color: $mobile-navigation-border-color;
   }
   
   .navbar-default .navbar-brand{
-    color: #fff;
+    color: $header-text-color;
     font-size: 25px;
     padding-left: 22%;
   }
   
   .navbar-default .navbar-brand:focus{
-    color: #fff;
+    color: $header-text-color;
   }
   
   .social-icons .social-icon-wrapper{
@@ -106,6 +107,42 @@
   }
   .navbar-default .navbar-nav > li > a{
     font-size: 20px;
+  }
+}
+
+@media screen and (min-width: $screen-lg){
+  .header-content-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    .header-phone-number{
+      float: right;
+      position: absolute;
+      top: 45px;
+      right: 30px;
+      font-size: 20px
+    }
+  }
+  #menu_my_bootstrap_menu_settings_main_menu{
+    position: relative;
+  }
+  .navbar-brand{
+    position: absolute;
+    top: -50px;
+    left: 150px;
+    font-size: 40px;
+    
+  }
+  .navbar-inner{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .logo-wrapper img{
+    height: 120px;
+    width: auto;
+  }
+  .navbar-nav{
+    padding-left: 10%;
   }
 }
 

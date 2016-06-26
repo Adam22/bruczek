@@ -18,18 +18,20 @@
 <body <?php body_class(); ?>>
     <header id="main-header" class="site-header" role="banner">
         <div class="container-fluid">
+            <div class="header-content-wrapper">
                 <div class="logo-wrapper">
-                <?php bruczek_theme_the_custom_logo(); ?>
+                    <?php bruczek_theme_the_custom_logo(); ?>
                 </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-8 header header-phone-number"><p>+48 74 265 2525</p></div>
+                    <div class="col-xs-12 col-md-8 col-lg-2 header-phone-number"><p>+48 74 265 2525</p></div>
                 </div>
                 <div class="row">
                     <div class="col-xs-12 col-md-8 social-icons">
                     </div>
                 </div>
-                <div class="row">
-                    <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-                </div>
+            </div>
+            <div class="row">
+                <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+            </div>
         </div>
     </header>

@@ -9,13 +9,14 @@
 
  ?>
 <?php get_header(); ?>
-<div class="content-wrapper">
+
 
     <?php
     if (is_home() || is_front_page()) {
         echo do_shortcode("[metaslider id=37]"); // replace 123 with your slideshow ID
     }
     ?>
+<div class="content-wrapper">
     <?php $category_id = get_cat_ID('front-page'); ?>
     <?php query_posts($category_id . '&showposts=3'); ?>
     <ul class=”front-posts”>
@@ -36,11 +37,11 @@
             <p><?php _e( 'Przepraszamy, brak wpisów.' ); ?></p>
         <?php endif; ?>
     </ul>
-    <div class="jumbotron">
-        <h3>lorem ipsum dollor sit amet</h3>
-        <p>Lorem Ipsum bullla calculata</p>
-        <button type=”button” class=”btn btn-default btn-lg”>Napisz do nas</button>
-        <button type=”button” class=”btn btn-default btn-lg”>Przejrzyj nasze projekty</button>
-    </div>
-    <?php get_footer(); ?>
 </div>
+<div class="jumbotron">
+    <h3>lorem ipsum dollor sit amet</h3>
+    <p>Lorem Ipsum bullla calculata</p>
+    <button type=”button” class=”btn btn-default btn-lg”>Napisz do nas</button>
+    <button type=”button” class=”btn btn-default btn-lg”>Przejrzyj nasze projekty</button>
+</div>
+<?php get_footer(); ?>
