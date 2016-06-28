@@ -145,6 +145,6 @@ module.exports = function(grunt) {
     grunt.renameTask('rsync', 'deploy');
 
     // register task
-    grunt.registerTask('default', ['concat', 'watch', 'sass']);
+    grunt.registerTask('default', ['concat', 'sass', 'watch' ]);
 
 };

@@ -7389,6 +7389,9 @@ button.close {
   color: #fff;
   border-color: transparent;
 }
+.navbar-default .navbar-nav > li > a:active {
+  color: #fff;
+}
 
 .navbar-default .navbar-nav > li > a {
   color: #abaaaa;
@@ -7470,6 +7473,9 @@ button.close {
     top: -50px;
     left: 150px;
     font-size: 40px;
+    transform: scale(3, 1);
+    -webkit-transform: scale(1.2, 1);
+    display: inline-block;
   }
 
   .navbar-inner {
@@ -7495,13 +7501,69 @@ a:focus {
   padding: 0;
 }
 
+.box-header {
+  border-bottom: 2px solid #75A631;
+  padding-bottom: 10px;
+}
+
+.button-grey {
+  background-color: #444444;
+}
+
+.text-white {
+  color: #fff;
+}
+
+.jumbotron-buttons {
+  float: right;
+  margin-top: 45px;
+}
+
+.jumbotron-content-wrapper {
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+
+.content-baner {
+  margin: 20px 0;
+  background: linear-gradient(rgba(102, 195, 0, 0.45), rgba(102, 195, 0, 0.45)), url("http://napierala-bruk.pl/wp-content/uploads/2014/04/437214_kamni_bruschatka_mostovaya_6666x4944_www.GdeFon.ruaaa_.jpg");
+  min-height: 230px;
+}
+
+.front-boxes-wrapper .front-box img {
+  padding: 0;
+  border-radius: 0;
+  width: 98%;
+  margin: 4px;
+  max-height: 250px;
+}
+
 @media screen and (min-width: 1200px) {
   #metaslider_37 .slides > li > img {
-    max-height: 600px;
+    max-height: 500px;
   }
 
   .content-wrapper {
     max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .jumbotron-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .front-boxes-wrapper {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+  .front-boxes-wrapper:before, .front-boxes-wrapper:after {
+    content: " ";
+    display: table;
+  }
+  .front-boxes-wrapper:after {
+    clear: both;
   }
 }
 

@@ -11,11 +11,54 @@ a:focus{
   margin: 0;
   padding: 0;
 }
+.box-header{
+  border-bottom: 2px solid $box-border-color;
+  padding-bottom: 10px;
+}
+
+.button-grey{
+  background-color: #444444;
+}
+.text-white{
+  color: #fff;
+}
+.jumbotron-buttons{
+  float: right;
+  margin-top: 45px;
+}
+.jumbotron-content-wrapper{
+  width: 50%;
+  float: left;
+  margin-top: 20px;
+}
+.content-baner{
+  margin: 20px 0;
+  background: linear-gradient(
+                  rgba(102, 195, 0, 0.45),
+                  rgba(102, 195, 0, 0.45)
+  ), url($jumbotron-background-image);
+  min-height: 230px;
+}
+.front-boxes-wrapper .front-box img {
+  padding: 0;
+  border-radius: 0;
+  width: 98%;
+  margin: 4px;
+  max-height: 250px;
+}
 @media screen and (min-width: $screen-lg){
   #metaslider_37 .slides > li > img{
-    max-height: 600px;
+    max-height: 500px;
   }
   .content-wrapper{
     max-width: 1200px;
+    margin: 0 auto;
+  }
+  .jumbotron-content{
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .front-boxes-wrapper {
+    @include make-row;
   }
 }
