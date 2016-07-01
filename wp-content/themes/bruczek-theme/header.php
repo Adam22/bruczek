@@ -30,8 +30,9 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
-            </div>
+            <!--<div class="row">
+
+            </div>-->
         </div>
+        <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
     </header>

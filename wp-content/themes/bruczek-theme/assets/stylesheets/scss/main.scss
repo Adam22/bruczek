@@ -7,6 +7,7 @@
 a:focus{
   outline: 0px auto -webkit-focus-ring-color;
 }
+
 .content-wrapper {
   margin: 0;
   padding: 0;
@@ -45,6 +46,7 @@ a:focus{
   width: 98%;
   margin: 4px;
   max-height: 250px;
+  min-height: 250px;
 }
 @media screen and (min-width: $screen-lg){
   #metaslider_37 .slides > li > img{
@@ -62,3 +64,26 @@ a:focus{
     @include make-row;
   }
 }
+@media screen and (min-width: $screen-md){
+  .content-baner{
+    float: left;
+    width: 100%;
+  }
+  .container-fluid .jumbotron{
+    border-radius: 0;
+  }
+}
+@media screen and (min-width: $screen-sm){
+  .content-baner{
+    float: left;
+    width: 100%;
+  }
+  .container-fluid .jumbotron{
+    border-radius: 0;
+  }
+}
+@media screen and (min-width: $screen-xs){.front-boxes-wrapper .front-box img{
+    
+  }
+}
+
