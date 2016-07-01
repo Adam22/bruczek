@@ -11,8 +11,8 @@
 <?php get_header(); ?>
 <?php if (is_home() || is_front_page()) { echo do_shortcode("[metaslider id=37]"); }?>
 <div class="content-wrapper">
-    <?php $category_id = get_cat_ID('front-page'); ?>
-    <?php query_posts($category_id . '&showposts=3'); ?>
+    <?php $box_category_id = get_cat_ID('front-page'); ?>
+    <?php query_posts($box_category_id . '&showposts=3'); ?>
     <div class="front-boxes-wrapper">
         <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
                 <div class="col-md-5 col-lg-4 front-box">
