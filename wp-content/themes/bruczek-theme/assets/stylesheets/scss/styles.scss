@@ -1,5 +1,7 @@
 @import "partials/bruczek-variables";
 @import "partials/header";
+@import "partials/footer";
+
 
 a:focus{
   outline: 0px auto -webkit-focus-ring-color;
@@ -45,6 +47,9 @@ a:focus{
   max-height: 250px;
   min-height: 250px;
 }
+.light-gray{
+  background-color: #1c1c1c;
+}
 @media screen and (min-width: $screen-lg){
   #metaslider_37 .slides > li > img{
     max-height: 500px;
@@ -80,7 +85,7 @@ a:focus{
   }
 }
 @media screen and (min-width: $screen-xs){.front-boxes-wrapper .front-box img{
-    
+
   }
 }
 

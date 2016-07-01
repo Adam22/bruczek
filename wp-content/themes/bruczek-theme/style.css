@@ -7492,6 +7492,11 @@ button.close {
     padding-left: 10%;
   }
 }
+.site-footer {
+  background-color: #000000;
+  color: #fff;
+}
+
 a:focus {
   outline: 0px auto -webkit-focus-ring-color;
 }
@@ -7538,6 +7543,10 @@ a:focus {
   margin: 4px;
   max-height: 250px;
   min-height: 250px;
+}
+
+.light-gray {
+  background-color: #1c1c1c;
 }
 
 @media screen and (min-width: 1200px) {

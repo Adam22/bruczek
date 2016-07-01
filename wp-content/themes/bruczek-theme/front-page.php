@@ -26,6 +26,7 @@
             <?php endif; ?>
         </div>
     </div>
+    <section>
     <div class="jumbotron content-baner">
         <div class="jumbotron-content">
             <div class="jumbotron-content-wrapper text-white">
@@ -38,5 +39,6 @@
             </div>
         </div>
     </div>
+    </section>
 </div>
 <?php get_footer(); ?>

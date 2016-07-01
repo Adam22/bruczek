@@ -18,7 +18,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row light-gray">
             <div class="col-md-offset-5 col-md-2">
                 <p>&#9400; 2016 www.bruczek.pl</p>
             </div>
