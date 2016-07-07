@@ -7523,6 +7523,7 @@ a:focus {
 
 .content-baner {
   float: left;
+  width: 100%;
 }
 
 .jumbotron-buttons {
