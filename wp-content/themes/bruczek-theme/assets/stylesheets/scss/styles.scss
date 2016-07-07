@@ -22,6 +22,9 @@ a:focus{
 .text-white{
   color: #fff;
 }
+.content-baner{
+  float: left;
+}
 .jumbotron-buttons{
   float: right;
   margin-top: 45px;
@@ -84,8 +87,25 @@ a:focus{
     border-radius: 0;
   }
 }
-@media screen and (min-width: $screen-xs){.front-boxes-wrapper .front-box img{
-
+@media (min-width: $screen-xs) and (max-width: $screen-sm){
+  .front-boxes-wrapper .front-box img{
+    width: 370px;
+    margin: 0 calc((100% - 370px)/2);
+    height: auto;
+  }
+  .box-header{
+    text-align: center;
+  }
+  .front-box p {
+    padding: 0 10%;
+  }
+  .metaslider .slides img{
+    min-height: 350px;
   }
 }
 
+@media screen and (max-width: $screen-xs){
+  .metaslider .slides img{
+    min-height: 260px;
+  }
+}

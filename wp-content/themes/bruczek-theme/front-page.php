@@ -26,19 +26,18 @@
             <?php endif; ?>
         </div>
     </div>
-    <section>
-    <div class="jumbotron content-baner">
-        <div class="jumbotron-content">
-            <div class="jumbotron-content-wrapper text-white">
-                <h3>lorem ipsum dollor sit amet</h3>
-                <p>Lorem Ipsum bullla calculata</p>
-            </div>
-            <div class="jumbotron-buttons">
-                <button type="button" class="btn btn-default btn-lg">Napisz do nas</button>
-                <button type="button" class="btn btn-default btn-lg  button-grey"><span class="text-white">Przejrzyj nasze projekty</span></button>
-            </div>
+</div>
+<div class="jumbotron content-baner">
+    <div class="jumbotron-content">
+        <div class="jumbotron-content-wrapper text-white">
+            <h3>lorem ipsum dollor sit amet</h3>
+            <p>Lorem Ipsum bullla calculata</p>
+        </div>
+        <div class="jumbotron-buttons">
+            <button type="button" class="btn btn-default btn-lg">Napisz do nas</button>
+            <button type="button" class="btn btn-default btn-lg  button-grey"><span class="text-white">Przejrzyj nasze projekty</span></button>
         </div>
     </div>
-    </section>
 </div>
+
 <?php get_footer(); ?>

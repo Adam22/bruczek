@@ -7428,6 +7428,7 @@ button.close {
   .navbar-default .navbar-brand {
     color: #fff;
     font-size: 20px;
+    padding-left: 15%;
   }
 
   .navbar-default .navbar-brand:focus {
@@ -7494,6 +7495,8 @@ button.close {
 .site-footer {
   background-color: #000000;
   color: #fff;
+  width: 100%;
+  float: left;
 }
 
 a:focus {
@@ -7516,6 +7519,10 @@ a:focus {
 
 .text-white {
   color: #fff;
+}
+
+.content-baner {
+  float: left;
 }
 
 .jumbotron-buttons {
@@ -7593,6 +7600,30 @@ a:focus {
 
   .container-fluid .jumbotron {
     border-radius: 0;
+  }
+}
+@media (min-width: 480px) and (max-width: 768px) {
+  .front-boxes-wrapper .front-box img {
+    width: 370px;
+    margin: 0 calc((100% - 370px)/2);
+    height: auto;
+  }
+
+  .box-header {
+    text-align: center;
+  }
+
+  .front-box p {
+    padding: 0 10%;
+  }
+
+  .metaslider .slides img {
+    min-height: 350px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .metaslider .slides img {
+    min-height: 260px;
   }
 }
 
