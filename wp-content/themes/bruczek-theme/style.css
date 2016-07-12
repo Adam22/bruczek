@@ -7466,9 +7466,6 @@ body {
     padding-left: 10%;
   }
 }
-@media screen and (min-width: 768px) {
-  font-size: 15px;
-}
 @media screen and (min-width: 480px) {
   .site-title-wrapper {
     height: 120px;
@@ -7491,7 +7488,7 @@ body {
     text-align: center;
   }
 }
-@media (max-width: 480px) {
+@media (max-width: 543px) {
   .site-title-wrapper .site-title {
     font-size: 30px;
     width: 210px;
@@ -7506,7 +7503,7 @@ body {
     margin: 0 auto;
   }
 
-  .row .col-mobile-1 {
+  .row .col-phone-1 {
     width: 100%;
   }
 }
