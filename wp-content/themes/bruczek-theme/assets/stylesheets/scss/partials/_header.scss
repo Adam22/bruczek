@@ -11,6 +11,7 @@
 .logo-wrapper img {
   height: 120px;
   width: auto;
+  margin: 0 auto;
 }
 
 .header-content-wrapper {
@@ -148,6 +149,8 @@
 
 @media (max-width: 543px){
   .site-title-wrapper {
+    display: block;
+    height: auto;
     .site-title {
       font-size: 30px;
       width: 210px;
@@ -157,6 +160,8 @@
   }
 
   .phone-number-wrapper {
+    display: block;
+    height: auto;
     .phone-number {
       font-size: 15px;
       width: 125px;

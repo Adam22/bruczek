@@ -7353,6 +7353,7 @@ body {
 .logo-wrapper img {
   height: 120px;
   width: auto;
+  margin: 0 auto;
 }
 
 .header-content-wrapper {
@@ -7489,6 +7490,10 @@ body {
   }
 }
 @media (max-width: 543px) {
+  .site-title-wrapper {
+    display: block;
+    height: auto;
+  }
   .site-title-wrapper .site-title {
     font-size: 30px;
     width: 210px;
@@ -7496,6 +7501,10 @@ body {
     margin: 0 auto;
   }
 
+  .phone-number-wrapper {
+    display: block;
+    height: auto;
+  }
   .phone-number-wrapper .phone-number {
     font-size: 15px;
     width: 125px;
