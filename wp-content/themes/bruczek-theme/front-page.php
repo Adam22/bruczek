@@ -10,6 +10,7 @@
  ?>
 <?php get_header(); ?>
 <?php if (is_home() || is_front_page()) { echo do_shortcode("[metaslider id=37]"); }?>
+<!--<div class="jumbotron small-baner"></div>-->
 <div class="container-fluid">
     <div class="content-wrapper">
         <?php $box_category_id = get_cat_ID('front-page'); ?>
@@ -34,8 +35,8 @@
             <p>Lorem Ipsum bullla calculata</p>
         </div>
         <div class="jumbotron-buttons">
-            <button type="button" class="btn btn-default btn-lg">Napisz do nas</button>
-            <button type="button" class="btn btn-default btn-lg  button-grey"><span class="text-white">Przejrzyj nasze projekty</span></button>
+            <button type="button" class="btn btn-default btn-lg jumbo-button">Napisz do nas</button>
+            <button type="button" class="btn btn-default btn-lg  button-grey jumbo-button"><span class="text-white">Przejrzyj nasze projekty</span></button>
         </div>
     </div>
 </div>

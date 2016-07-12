@@ -1,6 +1,6 @@
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-
+body{min-width: 360px;}
 @import "partials/bruczek-variables";
 @import "partials/header";
 @import "partials/footer";
@@ -38,6 +38,9 @@ a:focus{
   float: left;
   margin-top: 20px;
 }
+.jumbo-button{
+  margin: 15px 0;
+}
 .content-baner{
   margin: 20px 0;
   background: linear-gradient(
@@ -46,6 +49,7 @@ a:focus{
   ), url($jumbotron-background-image);
   min-height: 230px;
 }
+
 .front-boxes-wrapper .front-box img {
   padding: 0;
   border-radius: 0;
@@ -104,12 +108,15 @@ a:focus{
     padding: 0 10%;
   }
   .metaslider .slides img{
-    min-height: 350px;
+    min-height: 310px;
   }
 }
 
 @media screen and (max-width: $screen-xs){
   .metaslider .slides img{
     min-height: 260px;
+  }
+  .jumbotron-buttons{
+    max-width: 230px;
   }
 }

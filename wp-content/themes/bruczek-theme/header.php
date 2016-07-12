@@ -19,20 +19,25 @@
     <header id="main-header" class="site-header" role="banner">
         <div class="container-fluid">
             <div class="header-content-wrapper">
-                <div class="logo-wrapper">
-                    <?php bruczek_theme_the_custom_logo(); ?>
-                </div>
                 <div class="row">
-                    <div class="col-xs-12 col-md-8 col-lg-2 header-phone-number"><p>+48 74 265 2525</p></div>
-                </div>
-                <div class="row">
-                    <div class="col-xs-12 col-md-8 social-icons">
+                    <div class="col-mobile-1 col-xs-3 col-sm-2 col-md-2">
+                        <div class="logo-wrapper">
+                            <?php bruczek_theme_the_custom_logo(); ?>
+                        </div>
                     </div>
+                    <div class="col-mobile-1 col-xs-5 col-sm-4 col-md-4">
+                        <div class="site-title-wrapper">
+                            <span class="site-title"><?php bloginfo( 'name' );?></span>
+                        </div>
+                    </div>
+                    <div class="col-mobile-1 col-xs-4 col-sm-3 col-sm-offset-3 col-md-3 col-md-offset-3 col-lg-2 col-lg-offset-4">
+                        <div class=" phone-number-wrapper">
+                            <span class="phone-number">+48 74 265 2525</span>
+                        </div>
+                    </div>
+                    <div class="col-mobile-1 col-xs-12 col-sm-3 col-md-3 social-icons"></div>
                 </div>
             </div>
-            <!--<div class="row">
-
-            </div>-->
         </div>
         <?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
     </header>
