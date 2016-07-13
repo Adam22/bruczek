@@ -7338,7 +7338,8 @@ button.close {
   }
 }
 body {
-  min-width: 360px;
+  min-width: 300px;
+  width: 100%;
 }
 
 #main-header {
@@ -7414,6 +7415,27 @@ body {
   color: #fff;
 }
 
+.site-title-wrapper {
+  height: 120px;
+  display: table;
+}
+.site-title-wrapper .site-title {
+  display: table-cell;
+  vertical-align: bottom;
+  font-size: 30px;
+}
+
+.phone-number-wrapper {
+  height: 120px;
+  display: table;
+}
+.phone-number-wrapper .phone-number {
+  vertical-align: middle;
+  display: table-cell;
+  font-size: 15px;
+  text-align: center;
+}
+
 @media screen and (max-width: 480px) {
   .custom-logo-link, .social-icons, .header-phone-number {
     margin: 0 auto;
@@ -7446,50 +7468,7 @@ body {
     font-size: 20px;
   }
 }
-@media screen and (min-width: 1200px) {
-  .header-content-wrapper {
-    width: 1170px;
-    margin: 0 auto;
-    position: relative;
-  }
-
-  .navbar-inner {
-    width: 1170px;
-    margin: 0 auto;
-  }
-
-  .logo-wrapper img {
-    height: 120px;
-    width: auto;
-  }
-
-  .navbar-nav {
-    padding-left: 10%;
-  }
-}
-@media screen and (min-width: 480px) {
-  .site-title-wrapper {
-    height: 120px;
-    display: table;
-  }
-  .site-title-wrapper .site-title {
-    display: table-cell;
-    vertical-align: bottom;
-    font-size: 30px;
-  }
-
-  .phone-number-wrapper {
-    height: 120px;
-    display: table;
-  }
-  .phone-number-wrapper .phone-number {
-    vertical-align: middle;
-    display: table-cell;
-    font-size: 15px;
-    text-align: center;
-  }
-}
-@media (max-width: 543px) {
+@media screen and (max-width: 543px) {
   .site-title-wrapper {
     display: block;
     height: auto;
@@ -7514,6 +7493,84 @@ body {
 
   .row .col-phone-1 {
     width: 100%;
+  }
+}
+@media screen and (min-width: 480px) {
+  .site-title-wrapper {
+    height: 120px;
+    display: table;
+  }
+  .site-title-wrapper .site-title {
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 30px;
+  }
+
+  .phone-number-wrapper {
+    height: 120px;
+    display: table;
+  }
+  .phone-number-wrapper .phone-number {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 543px) {
+  .phone-number-wrapper {
+    height: 120px;
+    display: table;
+  }
+  .phone-number-wrapper .phone-number {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 20px;
+    text-align: center;
+  }
+}
+@media (min-width: 480px) and (max-width: 543px) {
+  .site-title-wrapper {
+    display: block;
+    height: auto;
+  }
+  .site-title-wrapper .site-title {
+    font-size: 30px;
+    width: 210px;
+    display: block;
+    margin: 0 auto;
+  }
+
+  .phone-number-wrapper {
+    display: block;
+    height: auto;
+  }
+  .phone-number-wrapper .phone-number {
+    font-size: 15px;
+    width: 125px;
+    display: block;
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .header-content-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .navbar-inner {
+    width: 1170px;
+    margin: 0 auto;
+  }
+
+  .logo-wrapper img {
+    height: 120px;
+    width: auto;
+  }
+
+  .navbar-nav {
+    padding-left: 10%;
   }
 }
 .site-footer {

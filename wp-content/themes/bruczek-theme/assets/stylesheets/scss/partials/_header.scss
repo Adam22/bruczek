@@ -75,6 +75,27 @@
   color: $header-text-color;
 }
 
+.site-title-wrapper {
+  height: 120px;
+  display: table;
+  .site-title {
+    display: table-cell;
+    vertical-align: bottom;
+    font-size: 30px;
+  }
+}
+
+.phone-number-wrapper {
+  height: 120px;
+  display: table;
+  .phone-number {
+    vertical-align: middle;
+    display: table-cell;
+    font-size: 15px;
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: $screen-xs) {
   .custom-logo-link, .social-icons, .header-phone-number{
     margin: 0 auto;
@@ -105,22 +126,30 @@
   }
 }
 
-@media screen and (min-width: $screen-lg){
-  .header-content-wrapper {
-    width: 1170px;
-    margin: 0 auto;
-    position: relative;
+@media screen and (max-width: 543px){
+  .site-title-wrapper {
+    display: block;
+    height: auto;
+    .site-title {
+      font-size: 30px;
+      width: 210px;
+      display: block;
+      margin: 0 auto;
+    }
   }
-  .navbar-inner{
-    width: 1170px;
-    margin: 0 auto;
+
+  .phone-number-wrapper {
+    display: block;
+    height: auto;
+    .phone-number {
+      font-size: 15px;
+      width: 125px;
+      display: block;
+      margin: 0 auto;
+    }
   }
-  .logo-wrapper img{
-    height: 120px;
-    width: auto;
-  }
-  .navbar-nav{
-    padding-left: 10%;
+  .row .col-phone-1 {
+    width:100%;
   }
 }
 
@@ -146,8 +175,19 @@
     }
   }
 }
-
-@media (max-width: 543px){
+@media screen and (min-width: 543px) {
+  .phone-number-wrapper {
+    height: 120px;
+    display: table;
+    .phone-number {
+      vertical-align: middle;
+      display: table-cell;
+      font-size: 20px;
+      text-align: center;
+    }
+  }
+}
+@media (min-width: $screen-xs) and (max-width: 543px) {
   .site-title-wrapper {
     display: block;
     height: auto;
@@ -169,7 +209,22 @@
       margin: 0 auto;
     }
   }
-  .row .col-phone-1 {
-    width:100%;
+}
+@media screen and (min-width: $screen-lg){
+  .header-content-wrapper {
+    width: 1170px;
+    margin: 0 auto;
+    position: relative;
+  }
+  .navbar-inner{
+    width: 1170px;
+    margin: 0 auto;
+  }
+  .logo-wrapper img{
+    height: 120px;
+    width: auto;
+  }
+  .navbar-nav{
+    padding-left: 10%;
   }
 }

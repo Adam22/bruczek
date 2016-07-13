@@ -1,6 +1,6 @@
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap-sprockets";
 @import "../../../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
-body{min-width: 360px;}
+body{min-width: 300px; width: 100%}
 @import "partials/bruczek-variables";
 @import "partials/header";
 @import "partials/footer";
