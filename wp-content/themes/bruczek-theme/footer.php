@@ -1,5 +1,5 @@
 <footer class="site-footer">
-    <div class="container-fluid content-wrapper">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-md-3">
                 <h6>Nasza siedziba:</h6>
@@ -18,8 +18,6 @@
                 </div>
             </div>
         </div>
-    </div>
-    <div class="container-fluid">
         <div class="row light-gray">
             <div class="col-md-offset-5 col-md-2">
                 <p>&#9400; 2016 www.bruczek.pl</p>

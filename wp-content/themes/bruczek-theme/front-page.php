@@ -28,13 +28,13 @@
         </div>
     </div>
 </div>
-<div class="jumbotron content-baner container-fluid">
-    <div class="jumbotron-content row">
-        <div class="text-white col-xs-12 col-sm-5 col-lg-6">
+<div class="jumbotron content-baner">
+    <div class="jumbotron-content">
+        <div class="jumbotron-content-wrapper text-white">
             <h3>lorem ipsum dollor sit amet</h3>
             <p>Lorem Ipsum bullla calculata</p>
         </div>
-        <div class="jumbotron-buttons col-xs-12 col-sm-7 col-lg-6">
+        <div class="jumbotron-buttons">
             <button type="button" class="btn btn-default btn-lg jumbo-button">Napisz do nas</button>
             <button type="button" class="btn btn-default btn-lg  button-grey jumbo-button"><span class="text-white">Przejrzyj nasze projekty</span></button>
         </div>
