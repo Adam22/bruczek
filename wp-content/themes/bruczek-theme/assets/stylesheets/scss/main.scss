@@ -31,14 +31,11 @@ a:focus{
 }
 .jumbotron-buttons{
   float: right;
-  margin-top: 35px;
-  > button{
-    float: right;
-  }
+  margin-top: 45px;
 }
-
 .jumbo-button{
   margin: 5px 15px;
+  float: right;
 }
 .content-baner{
   margin: 20px 0;
@@ -53,13 +50,13 @@ a:focus{
   padding: 0;
   border-radius: 0;
   width: 98%;
-  margin: 4px;
   max-height: 250px;
   min-height: 250px;
 }
 .light-gray{
   background-color: #1c1c1c;
 }
+
 @media screen and (min-width: $screen-lg){
   #metaslider_37 .slides > li > img{
     max-height: 500px;
@@ -76,6 +73,7 @@ a:focus{
     @include make-row;
   }
 }
+
 @media screen and (min-width: $screen-md){
   .content-baner{
     float: left;
@@ -85,6 +83,7 @@ a:focus{
     border-radius: 0;
   }
 }
+
 @media screen and (min-width: $screen-sm){
   .content-baner{
     float: left;
@@ -94,20 +93,18 @@ a:focus{
     border-radius: 0;
   }
 }
-
 @media screen and (max-width: $screen-sm){
-    .jumbotron-buttons{
-      margin-top: 0;
-      padding-right: 5%;
-    }
+  .jumbotron-buttons{
+    margin-top: 0;
+    padding-right: 5%;
+  }
 }
 
 @media (min-width: $screen-xs) and (max-width: 767px){
-    .front-boxes-wrapper .front-box img{
-      margin: 0 calc((100% - 370px)/2);
-    }
+  .front-boxes-wrapper .front-box img{
+    margin: 0 calc((100% - 370px)/2);
+  }
 }
-
 
 @media (min-width: $screen-xs) and (max-width: $screen-sm){
   .front-boxes-wrapper .front-box img{
@@ -128,5 +125,8 @@ a:focus{
 @media screen and (max-width: $screen-xs){
   .metaslider .slides img{
     min-height: 260px;
+  }
+  .jumbotron-buttons{
+    max-width: 230px;
   }
 }

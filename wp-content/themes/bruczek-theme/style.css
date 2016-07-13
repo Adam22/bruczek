@@ -7609,14 +7609,12 @@ a:focus {
 
 .jumbotron-buttons {
   float: right;
-  margin-top: 35px;
-}
-.jumbotron-buttons > button {
-  float: right;
+  margin-top: 45px;
 }
 
 .jumbo-button {
   margin: 5px 15px;
+  float: right;
 }
 
 .content-baner {
@@ -7629,7 +7627,6 @@ a:focus {
   padding: 0;
   border-radius: 0;
   width: 98%;
-  margin: 4px;
   max-height: 250px;
   min-height: 250px;
 }
@@ -7717,6 +7714,10 @@ a:focus {
 @media screen and (max-width: 480px) {
   .metaslider .slides img {
     min-height: 260px;
+  }
+
+  .jumbotron-buttons {
+    max-width: 230px;
   }
 }
 
