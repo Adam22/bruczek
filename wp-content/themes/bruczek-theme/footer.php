@@ -1,6 +1,6 @@
 <footer class="site-footer">
     <div class="container-fluid">
-        <div class="row">
+        <div class="row content-wrapper">
             <div class="col-md-3">
                 <h6>Nasza siedziba:</h6>
                 <p>www.bruczek.pl</p>
@@ -18,13 +18,14 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="container-fluid">
         <div class="row light-gray">
             <div class="col-md-offset-5 col-md-2">
                 <p>&#9400; 2016 www.bruczek.pl</p>
             </div>
         </div>
     </div>
-
 </footer>
 <?php wp_footer(); ?>
 </body>
